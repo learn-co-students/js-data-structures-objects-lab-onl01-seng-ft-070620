@@ -1,4 +1,7 @@
 describe('drivers', function() {
+    let driver = {}
+    //I had to add this line for any tests to function. 
+    //Shouldn't the test have defined this variable somewhere?
   describe('updateDriverWithKeyAndValue(driver, key, value)', function () {
     beforeEach(function () {
       for (const key in driver) {
